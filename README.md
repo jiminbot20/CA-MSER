@@ -1,3 +1,9 @@
+# 코드 재현
+
+2. Download the processed data.
+- zip파일 다운 후 압축해제 하여 IEMOCAP_multi.pkl 경로 
+- crossval_SER.py의 line15
+features_file = 'IEMOCAP_multi.pkl'에 맞는 경로로 수정
 
 # CA-MSER
 Code for [Speech Emotion Recognition with Co-Attention based Multi-level Acoustic Information](https://arxiv.org/abs/2203.15326) (ICASSP 2022)
